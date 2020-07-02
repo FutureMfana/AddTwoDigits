@@ -1,0 +1,6 @@
+function addTwoDigits(n) {
+    var x = String(n).substring(0,1);
+    var y = String(n).substring(1,2);
+    //console.log(x)
+    return (Number(x) + Number(y));
+}
